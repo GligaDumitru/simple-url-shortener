@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="vh-100">
+      <div class="container py-5 h-100">
+        <div class="row d-flex">
+          <div class="col-md-8 col-lg-7 col-xl-6">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+              class="img-fluid"
+              alt="Phone image"
+            />
+          </div>
+          <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <form action="/count" method="post" class="my-4 form-group">
+              <h1 class="display-3">URL Click Counter</h1>
+              <h5>Enter the URL to find out how many clicks it has received so far.</h5>
+              <div class="my-4">
+                <input
+                  placeholder="Example: localhost:5001/Fn3Fwukj4"
+                  type="url"
+                  name="shortURl"
+                  id="shortURl"
+                  required
+                  class="form-control mr-2 p-4"
+                />
+              </div>
+              <button type="submit" class="btn btn-success btn-lg btn-block">
+                Track Clicks
+              </button>
+
+              <p class="mt-4">* Track the total hits of the shortened URL in real time, you do not have to register.</p>
+              <p class="mt-4">Create other <a href="/">shortened URL.</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
